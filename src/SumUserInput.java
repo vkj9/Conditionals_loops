@@ -5,7 +5,7 @@ public class SumUserInput {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
         int sum = 0;
-        while (num!=0) {
+        while (num>0) {
             sum = sum+num;
             num= input.nextInt();
         }
